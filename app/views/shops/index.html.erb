@@ -25,7 +25,7 @@
         <td><%= shop.whatsapp %></td>
         <td><%= shop.phone %></td>
         <td><%= shop.user_id %></td>
-        <td><%= image_tag shop.avatar.url %></td>
+        <td><%= image_tag shop.shop_img.url %></td>
         <td><%= link_to 'Show', shop %></td>
         <td><%= link_to 'Edit', edit_shop_path(shop) %></td>
         <td><%= link_to 'Destroy', shop, method: :delete, data: { confirm: 'Are you sure?' } %></td>

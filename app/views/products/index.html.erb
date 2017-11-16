@@ -23,7 +23,7 @@
         <td><%= product.detail %></td>
         <td><%= product.shop_id %></td>
         <td><%= product.user_id %></td>
-        <td><%= image_tag product.avatar.url %></td>
+        <td><%= image_tag product.product_img.url %></td>
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
         <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
